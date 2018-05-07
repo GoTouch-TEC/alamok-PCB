@@ -1,0 +1,961 @@
+EESchema Schematic File Version 4
+LIBS:AmalokCape-cache
+EELAYER 26 0
+EELAYER END
+$Descr D 34000 22000
+encoding utf-8
+Sheet 1 1
+Title "<Add project name here>"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AmalokCape-rescue:GND #GND013
+U 1 1 599213A3
+P 2800 3300
+F 0 "#GND013" H 2701 3200 70  0001 L BNN
+F 1 "GND" V 2850 2950 70  0000 L BNN
+F 2 "" H 2800 3300 60  0001 C CNN
+F 3 "" H 2800 3300 60  0001 C CNN
+	1    2800 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L AmalokCape-rescue:GND #GND014
+U 1 1 59921407
+P 6000 3300
+F 0 "#GND014" H 5900 3200 70  0001 L BNN
+F 1 "GND" V 6000 2950 70  0000 L BNN
+F 2 "" H 6000 3300 60  0001 C CNN
+F 3 "" H 6000 3300 60  0001 C CNN
+	1    6000 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AmalokCape-rescue:GND #GND015
+U 1 1 5992146B
+P 6000 3600
+F 0 "#GND015" H 5900 3500 70  0001 L BNN
+F 1 "GND" V 6050 3250 70  0000 L BNN
+F 2 "" H 6000 3600 60  0001 C CNN
+F 3 "" H 6000 3600 60  0001 C CNN
+	1    6000 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AmalokCape-rescue:GND #GND016
+U 1 1 599214CF
+P 7300 3300
+F 0 "#GND016" H 7201 3200 70  0001 L BNN
+F 1 "GND" V 7350 2950 70  0000 L BNN
+F 2 "" H 7300 3300 60  0001 C CNN
+F 3 "" H 7300 3300 60  0001 C CNN
+	1    7300 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L AmalokCape-rescue:GND #GND017
+U 1 1 59921533
+P 7300 3600
+F 0 "#GND017" H 7201 3500 70  0001 L BNN
+F 1 "GND" V 7300 3250 70  0000 L BNN
+F 2 "" H 7300 3600 60  0001 C CNN
+F 3 "" H 7300 3600 60  0001 C CNN
+	1    7300 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L AmalokCape-rescue:2X18-_INCH_-0.1-TH-_35MIL-DIA_-W_O-SILK P1
+U 1 1 59921D67
+P 4550 3500
+F 0 "P1" H 4500 4550 70  0000 L BNN
+F 1 "~" H 4540 3390 65  0001 L TNN
+F 2 "PocketBeagle.pretty:TH-2X18-(35MIL-DIA)-W_O-SILK" H 4540 3290 65  0001 L TNN
+F 3 "" H 4550 3500 60  0001 C CNN
+	1    4550 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L AmalokCape-rescue:2X18-_INCH_-0.1-TH-_35MIL-DIA_-W_O-SILK P2
+U 1 1 59921E2F
+P 8750 3500
+F 0 "P2" H 8700 4550 70  0000 L BNN
+F 1 "~" H 8740 3390 65  0001 L TNN
+F 2 "PocketBeagle.pretty:TH-2X18-(35MIL-DIA)-W_O-SILK" H 8740 3290 65  0001 L TNN
+F 3 "" H 8750 3500 60  0001 C CNN
+	1    8750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L AmalokCape-rescue:SYS_5V #SUPPLY05
+U 1 1 59922B13
+P 7100 3200
+F 0 "#SUPPLY05" H 7100 3360 70  0001 L BNN
+F 1 "SYS_5V" V 7100 3400 70  0000 L BNN
+F 2 "" H 7100 3200 60  0001 C CNN
+F 3 "" H 7100 3200 60  0001 C CNN
+	1    7100 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AmalokCape-rescue:SYS_5V #SUPPLY06
+U 1 1 59922B77
+P 6200 3700
+F 0 "#SUPPLY06" H 6200 3860 70  0001 L BNN
+F 1 "SYS_5V" V 6400 3650 70  0000 L BNN
+F 2 "" H 6200 3700 60  0001 C CNN
+F 3 "" H 6200 3700 60  0001 C CNN
+	1    6200 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L AmalokCape-rescue:VDD_5V #SUPPLY09
+U 1 1 59922CA3
+P 11300 1400
+F 0 "#SUPPLY09" H 11300 1560 70  0001 L BNN
+F 1 "VDD_5V" V 11300 1650 70  0000 L BNN
+F 2 "" H 11300 1400 60  0001 C CNN
+F 3 "" H 11300 1400 60  0001 C CNN
+	1    11300 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AmalokCape-rescue:VDD_3V3B #SUPPLY011
+U 1 1 59922D07
+P 6200 3200
+F 0 "#SUPPLY011" H 6200 3360 70  0001 L BNN
+F 1 "VDD_3V3B" V 6100 3100 70  0000 L BNN
+F 2 "" H 6200 3200 60  0001 C CNN
+F 3 "" H 6200 3200 60  0001 C CNN
+	1    6200 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L AmalokCape-rescue:USB_DC #SUPPLY012
+U 1 1 59922D6B
+P 2600 2900
+F 0 "#SUPPLY012" H 2600 3060 70  0001 L BNN
+F 1 "USB_DC" V 2600 3060 70  0000 L BNN
+F 2 "" H 2600 2900 60  0001 C CNN
+F 3 "" H 2600 2900 60  0001 C CNN
+	1    2600 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AmalokCape-rescue:VDD_3V3B #SUPPLY013
+U 1 1 59922DCF
+P 7100 3700
+F 0 "#SUPPLY013" H 7100 3860 70  0001 L BNN
+F 1 "VDD_3V3B" V 7000 3550 70  0000 L BNN
+F 2 "" H 7100 3700 60  0001 C CNN
+F 3 "" H 7100 3700 60  0001 C CNN
+	1    7100 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6000 4300 4800 4300
+Text Label 5000 4300 0    65   ~ 0
+(U1.A1)PWM0A
+Wire Wire Line
+	2800 4200 4300 4200
+Text Label 2900 4200 0    65   ~ 0
+(U1.A2)PRU-0.1
+Wire Wire Line
+	2800 4100 4300 4100
+Text Label 2900 4100 0    65   ~ 0
+(U1.A3)PRU-0.4
+Wire Wire Line
+	7300 4100 8500 4100
+Text Label 7400 4100 0    65   ~ 0
+(U1.A4)SPI1.CS
+Wire Wire Line
+	2800 3500 4300 3500
+Text Label 2900 3500 0    65   ~ 0
+(U1.A8)AIN0~1.8V
+Wire Wire Line
+	6000 3900 4800 3900
+Text Label 5000 3900 0    65   ~ 0
+(U1.A10)I2C2.SCL
+Text Label 7400 3100 0    65   ~ 0
+(U1.A11)I2C1.SDA
+Wire Wire Line
+	6000 4100 4800 4100
+Text Label 5000 4100 0    65   ~ 0
+(U1.A12)UART0.RX
+Wire Wire Line
+	6000 2900 4800 2900
+Text Label 5000 2900 0    65   ~ 0
+(U1.A13)SPI0.CLK
+Wire Wire Line
+	6000 2800 4800 2800
+Text Label 5000 2800 0    65   ~ 0
+(U1.A14)SPI0.CS
+Wire Wire Line
+	10200 4000 9000 4000
+Text Label 9200 4000 0    65   ~ 0
+(U1.B1)PRU-0.3
+Wire Wire Line
+	10200 4100 9000 4100
+Text Label 9200 4100 0    65   ~ 0
+(U1.B2)PRU-0.2
+Wire Wire Line
+	10200 4200 9000 4200
+Text Label 9200 4200 0    65   ~ 0
+(U1.B3)PRU-0.5
+Wire Wire Line
+	6000 3500 4800 3500
+Text Label 5000 3500 0    65   ~ 0
+(U1.B4)PRU-0.16
+Wire Wire Line
+	2800 3700 4300 3700
+Text Label 2900 3700 0    65   ~ 0
+(U1.B6)AIN2~1.8V
+Wire Wire Line
+	6000 3400 4800 3400
+Text Label 5000 3400 0    65   ~ 0
+(U1.B7)VREF+
+Wire Wire Line
+	4300 3600 2800 3600
+Text Label 2900 3600 0    65   ~ 0
+(U1.B8)AIN1~1.8V
+Wire Wire Line
+	2800 3400 4300 3400
+Text Label 2900 3400 0    65   ~ 0
+(U1.B9)VREF-
+Wire Wire Line
+	6000 3800 4800 3800
+Text Label 5000 3800 0    65   ~ 0
+(U1.B10)I2C2.SDA
+Text Label 7400 3000 0    65   ~ 0
+(U1.B11)I2C1.SCL
+Wire Wire Line
+	6000 4000 4800 4000
+Text Label 5000 4000 0    65   ~ 0
+(U1.B12)UART0.TX
+Wire Wire Line
+	6000 3000 4800 3000
+Text Label 5000 3000 0    65   ~ 0
+(U1.B13)SPI0.MISO
+Wire Wire Line
+	6000 3100 4800 3100
+Text Label 5000 3100 0    65   ~ 0
+(U1.B14)SPI0.MOSI
+Wire Wire Line
+	10200 3900 9000 3900
+Text Label 9200 3900 0    65   ~ 0
+(U1.C3)PRU-0.6
+Wire Wire Line
+	2800 4000 4300 4000
+Text Label 2900 4000 0    65   ~ 0
+(U1.C4)PRU-0.7
+Wire Wire Line
+	7300 4000 8500 4000
+Text Label 7400 4000 0    65   ~ 0
+(U1.C5)SPI1.CLK
+Wire Wire Line
+	2800 3800 4300 3800
+Text Label 2900 3800 0    65   ~ 0
+(U1.C6)AIN3~1.8V
+Wire Wire Line
+	4300 3900 2800 3900
+Text Label 2900 3900 0    65   ~ 0
+(U1.C7)AIN4~1.8V
+Wire Wire Line
+	7300 3900 8500 3900
+Text Label 7400 3900 0    65   ~ 0
+(U1.C12)SPI1.MISO
+Wire Wire Line
+	7300 3800 8500 3800
+Text Label 7400 3800 0    65   ~ 0
+(U1.C13)SPI1.MOSI
+Wire Wire Line
+	4800 2700 6000 2700
+Text Label 5000 2700 0    65   ~ 0
+(U1.E1)
+Wire Wire Line
+	2800 4300 4300 4300
+Text Label 2900 4300 0    65   ~ 0
+(U1.F1)
+Wire Wire Line
+	6000 2600 4800 2600
+Text Label 5000 2600 0    65   ~ 0
+(U1.F2)AIN6~3.3V
+Wire Wire Line
+	7300 4300 8500 4300
+Text Label 7400 4300 0    65   ~ 0
+(U1.F3)AIN5~3.3V
+Wire Wire Line
+	2800 3200 4300 3200
+Text Label 2900 3200 0    65   ~ 0
+(U1.L14)USB1.ID
+Wire Wire Line
+	2800 3100 4300 3100
+Text Label 2900 3100 0    65   ~ 0
+(U1.L15)USB1.D+
+Wire Wire Line
+	2800 3000 4300 3000
+Text Label 2900 3000 0    65   ~ 0
+(U1.L16)USB1.D-
+Wire Wire Line
+	4300 2700 2800 2700
+Text Label 2900 2700 0    65   ~ 0
+(U1.M14)USB1.DRVVBUS
+Wire Wire Line
+	2800 2800 4300 2800
+Text Label 2900 2800 0    65   ~ 0
+(U1.M15)USB1.VBUS
+Wire Wire Line
+	10200 4300 9000 4300
+Text Label 9200 4300 0    65   ~ 0
+(U1.N13)AIN7~1.8V
+Wire Wire Line
+	10200 2900 9000 2900
+Text Label 9150 2900 0    65   ~ 0
+(U1.N14)
+Text Label 7400 2700 0    65   ~ 0
+(U1.P5)GPIO-0.23
+Wire Wire Line
+	10200 3700 9000 3700
+Text Label 9150 3700 0    65   ~ 0
+(U1.P6)
+Wire Wire Line
+	10200 3400 9000 3400
+Text Label 9200 3400 0    65   ~ 0
+(U1.P7)PRU-0.15
+Text Label 7400 2600 0    65   ~ 0
+(U1.P12)PWM1A
+Text Label 7400 2800 0    65   ~ 0
+(U1.P15)UART4.RX
+Wire Wire Line
+	6000 4200 4800 4200
+Text Label 5000 4200 0    65   ~ 0
+(U1.R5)GPIO-0.26
+Wire Wire Line
+	7300 4200 8500 4200
+Text Label 7400 4200 0    65   ~ 0
+(U1.R6)
+Wire Wire Line
+	10200 3500 9000 3500
+Text Label 9150 3500 0    65   ~ 0
+(U1.R7)
+Wire Wire Line
+	9000 3800 10200 3800
+Text Label 9200 3800 0    65   ~ 0
+(U1.R11)RESET#
+Wire Wire Line
+	10200 3000 9000 3000
+Text Label 9150 3000 0    65   ~ 0
+(U1.R13)
+Wire Wire Line
+	10200 2700 9000 2700
+Text Label 9150 2700 0    65   ~ 0
+(U1.R15)
+Text Label 7400 2900 0    65   ~ 0
+(U1.R16)UART4.TX
+Wire Wire Line
+	8500 3500 7300 3500
+Text Label 7400 3500 0    65   ~ 0
+(U1.T5)
+Wire Wire Line
+	10200 3600 9000 3600
+Text Label 9200 3600 0    65   ~ 0
+(U1.T6)PRU-0.14
+Wire Wire Line
+	8500 3400 7300 3400
+Text Label 7400 3400 0    65   ~ 0
+(U1.T7)
+Wire Wire Line
+	10200 3100 9000 3100
+Text Label 9200 3100 0    65   ~ 0
+(U1.T11)PWR.BTN
+Wire Wire Line
+	10200 2800 9000 2800
+Text Label 9150 2800 0    65   ~ 0
+(U1.T15)
+Wire Wire Line
+	10200 2600 9000 2600
+Text Label 9150 2600 0    65   ~ 0
+(U1.T16)
+Wire Wire Line
+	10200 3300 9000 3300
+Text Label 9150 3300 0    65   ~ 0
+BAT.TEMP
+Wire Wire Line
+	2800 3300 4300 3300
+Wire Wire Line
+	6000 3300 4800 3300
+Wire Wire Line
+	6000 3600 4800 3600
+Wire Wire Line
+	7300 3300 8500 3300
+Wire Wire Line
+	7300 3600 8500 3600
+Wire Wire Line
+	7200 3200 8500 3200
+Text Label 7400 3200 0    65   ~ 0
+SYS_5V
+Wire Wire Line
+	6100 3700 4800 3700
+Text Label 5000 3700 0    65   ~ 0
+SYS_5V
+Wire Wire Line
+	2700 2900 4300 2900
+Text Label 2900 2900 0    65   ~ 0
+USB_DC
+Wire Wire Line
+	6100 3200 4800 3200
+Text Label 5000 3200 0    65   ~ 0
+VDD_3V3B
+Wire Wire Line
+	7200 3700 8500 3700
+Text Label 7400 3700 0    65   ~ 0
+VDD_3V3B
+Wire Wire Line
+	4300 2600 2800 2600
+Wire Wire Line
+	10200 3200 9000 3200
+Text Label 9150 3200 0    65   ~ 0
+VIN.BAT
+Text Label 4850 4300 0    10   ~ 0
+(U1.A1)PWM0A
+Text Label 4250 4200 2    10   ~ 0
+(U1.A2)PRU-0.1
+Text Label 4250 4100 2    10   ~ 0
+(U1.A3)PRU-0.4
+Text Label 8450 4100 2    10   ~ 0
+(U1.A4)SPI1.CS
+Text Label 4250 3500 2    10   ~ 0
+(U1.A8)AIN0~1.8V
+Text Label 4850 3900 0    10   ~ 0
+(U1.A10)I2C2.SCL
+Text Label 8450 3100 2    10   ~ 0
+(U1.A11)I2C1.SDA
+Text Label 4850 4100 0    10   ~ 0
+(U1.A12)UART0.RX
+Text Label 4850 2900 0    10   ~ 0
+(U1.A13)SPI0.CLK
+Text Label 4850 2800 0    10   ~ 0
+(U1.A14)SPI0.CS
+Text Label 9050 4000 0    10   ~ 0
+(U1.B1)PRU-0.3
+Text Label 9050 4100 0    10   ~ 0
+(U1.B2)PRU-0.2
+Text Label 9050 4200 0    10   ~ 0
+(U1.B3)PRU-0.5
+Text Label 4850 3500 0    10   ~ 0
+(U1.B4)PRU-0.16
+Text Label 4250 3700 2    10   ~ 0
+(U1.B6)AIN2~1.8V
+Text Label 4850 3400 0    10   ~ 0
+(U1.B7)VREF+
+Text Label 4250 3600 2    10   ~ 0
+(U1.B8)AIN1~1.8V
+Text Label 4250 3400 2    10   ~ 0
+(U1.B9)VREF-
+Text Label 4850 3800 0    10   ~ 0
+(U1.B10)I2C2.SDA
+Text Label 8450 3000 2    10   ~ 0
+(U1.B11)I2C1.SCL
+Text Label 4850 4000 0    10   ~ 0
+(U1.B12)UART0.TX
+Text Label 4850 3000 0    10   ~ 0
+(U1.B13)SPI0.MISO
+Text Label 4850 3100 0    10   ~ 0
+(U1.B14)SPI0.MOSI
+Text Label 9050 3900 0    10   ~ 0
+(U1.C3)PRU-0.6
+Text Label 4250 4000 2    10   ~ 0
+(U1.C4)PRU-0.7
+Text Label 8450 4000 2    10   ~ 0
+(U1.C5)SPI1.CLK
+Text Label 4250 3800 2    10   ~ 0
+(U1.C6)AIN3~1.8V
+Text Label 4250 3900 2    10   ~ 0
+(U1.C7)AIN4~1.8V
+Text Label 8450 3900 2    10   ~ 0
+(U1.C12)SPI1.MISO
+Text Label 8450 3800 2    10   ~ 0
+(U1.C13)SPI1.MOSI
+Text Label 4850 2700 0    10   ~ 0
+(U1.E1)
+Text Label 4250 4300 2    10   ~ 0
+(U1.F1)
+Text Label 4850 2600 0    10   ~ 0
+(U1.F2)AIN6~3.3V
+Text Label 8450 4300 2    10   ~ 0
+(U1.F3)AIN5~3.3V
+Text Label 4250 3200 2    10   ~ 0
+(U1.L14)USB1.ID
+Text Label 4250 3100 2    10   ~ 0
+(U1.L15)USB1.D+
+Text Label 4250 3000 2    10   ~ 0
+(U1.L16)USB1.D-
+Text Label 4250 2700 2    10   ~ 0
+(U1.M14)USB1.DRVVBUS
+Text Label 4250 2800 2    10   ~ 0
+(U1.M15)USB1.VBUS
+Text Label 9050 4300 0    10   ~ 0
+(U1.N13)AIN7~1.8V
+Text Label 9050 2900 0    10   ~ 0
+(U1.N14)
+Text Label 8450 2700 2    10   ~ 0
+(U1.P5)GPIO-0.23
+Text Label 9050 3700 0    10   ~ 0
+(U1.P6)
+Text Label 9050 3400 0    10   ~ 0
+(U1.P7)PRU-0.15
+Text Label 8450 2600 2    10   ~ 0
+(U1.P12)PWM1A
+Text Label 8450 2800 2    10   ~ 0
+(U1.P15)UART4.RX
+Text Label 4850 4200 0    10   ~ 0
+(U1.R5)GPIO-0.26
+Text Label 8450 4200 2    10   ~ 0
+(U1.R6)
+Text Label 9050 3500 0    10   ~ 0
+(U1.R7)
+Text Label 9050 3800 0    10   ~ 0
+(U1.R11)RESET#
+Text Label 9050 3000 0    10   ~ 0
+(U1.R13)
+Text Label 9050 2700 0    10   ~ 0
+(U1.R15)
+Text Label 8450 2900 2    10   ~ 0
+(U1.R16)UART4.TX
+Text Label 8450 3500 2    10   ~ 0
+(U1.T5)
+Text Label 9050 3600 0    10   ~ 0
+(U1.T6)PRU-0.14
+Text Label 8450 3400 2    10   ~ 0
+(U1.T7)
+Text Label 9050 3100 0    10   ~ 0
+(U1.T11)PWR.BTN
+Text Label 9050 2800 0    10   ~ 0
+(U1.T15)
+Text Label 9050 2600 0    10   ~ 0
+(U1.T16)
+Text Label 9050 3300 0    10   ~ 0
+BAT.TEMP
+Text GLabel 2800 3300 2    10   UnSpc ~ 0
+GND
+Text GLabel 4250 3300 0    10   UnSpc ~ 0
+GND
+Text GLabel 6000 3300 0    10   UnSpc ~ 0
+GND
+Text GLabel 4850 3300 2    10   UnSpc ~ 0
+GND
+Text GLabel 6000 3600 0    10   UnSpc ~ 0
+GND
+Text GLabel 4850 3600 2    10   UnSpc ~ 0
+GND
+Text GLabel 7300 3300 2    10   UnSpc ~ 0
+GND
+Text GLabel 8450 3300 0    10   UnSpc ~ 0
+GND
+Text GLabel 7300 3600 2    10   UnSpc ~ 0
+GND
+Text GLabel 8450 3600 0    10   UnSpc ~ 0
+GND
+Text GLabel 7200 3200 2    10   UnSpc ~ 0
+SYS_5V
+Text GLabel 8450 3200 0    10   UnSpc ~ 0
+SYS_5V
+Text GLabel 6100 3700 0    10   UnSpc ~ 0
+SYS_5V
+Text GLabel 4850 3700 2    10   UnSpc ~ 0
+SYS_5V
+Text GLabel 4250 2900 0    10   UnSpc ~ 0
+USB_DC
+Text GLabel 2700 2900 2    10   UnSpc ~ 0
+USB_DC
+Text GLabel 6100 3200 0    10   UnSpc ~ 0
+VDD_3V3B
+Text GLabel 4850 3200 2    10   UnSpc ~ 0
+VDD_3V3B
+Text GLabel 7200 3700 2    10   UnSpc ~ 0
+VDD_3V3B
+Text GLabel 8450 3700 0    10   UnSpc ~ 0
+VDD_3V3B
+Text GLabel 9050 3200 2    10   UnSpc ~ 0
+VIN.BAT
+$Comp
+L ExternalModules:FONA800H J2
+U 1 1 5AE2C2D6
+P 11800 4050
+F 0 "J2" H 12177 4046 50  0000 L CNN
+F 1 "FONA800H" H 12177 3955 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 11800 4050 50  0001 C CNN
+F 3 "~" H 11800 4050 50  0001 C CNN
+	1    11800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L ExternalModules:PowerBoost_1000C J1
+U 1 1 5AE2C36F
+P 11800 2750
+F 0 "J1" H 12077 2746 50  0000 L CNN
+F 1 "PowerBoost_1000C" H 12077 2655 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 11800 2750 50  0001 C CNN
+F 3 "" H 11800 2750 50  0001 C CNN
+	1    11800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L ExternalModules:UltimateGPS J3
+U 1 1 5AE2CCE8
+P 11800 5300
+F 0 "J3" H 12077 5346 50  0000 L CNN
+F 1 "UltimateGPS" H 12077 5255 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical" H 11800 5300 50  0001 C CNN
+F 3 "~" H 11800 5300 50  0001 C CNN
+	1    11800 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L AmalokCape-rescue:VDD_5V #SUPPLY0101
+U 1 1 5AE2FC2D
+P 11450 3150
+F 0 "#SUPPLY0101" H 11450 3310 70  0001 L BNN
+F 1 "VDD_5V" V 11450 3310 70  0000 L BNN
+F 2 "" H 11450 3150 60  0001 C CNN
+F 3 "" H 11450 3150 60  0001 C CNN
+	1    11450 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11650 3150 11550 3150
+$Comp
+L AmalokCape-rescue:GND #GND0101
+U 1 1 5AE3B602
+P 11450 3050
+F 0 "#GND0101" H 11351 2950 70  0001 L BNN
+F 1 "GND" V 11450 2700 70  0000 L BNN
+F 2 "" H 11450 3050 60  0001 C CNN
+F 3 "" H 11450 3050 60  0001 C CNN
+	1    11450 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L AmalokCape-rescue:GND #GND0102
+U 1 1 5AE3B61C
+P 11450 3650
+F 0 "#GND0102" H 11351 3550 70  0001 L BNN
+F 1 "GND" V 11450 3300 70  0000 L BNN
+F 2 "" H 11450 3650 60  0001 C CNN
+F 3 "" H 11450 3650 60  0001 C CNN
+	1    11450 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L AmalokCape-rescue:GND #GND0103
+U 1 1 5AE3B631
+P 11450 5500
+F 0 "#GND0103" H 11351 5400 70  0001 L BNN
+F 1 "GND" V 11450 5150 70  0000 L BNN
+F 2 "" H 11450 5500 60  0001 C CNN
+F 3 "" H 11450 5500 60  0001 C CNN
+	1    11450 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L AmalokCape-rescue:VDD_5V #SUPPLY0102
+U 1 1 5AE3B646
+P 11350 5600
+F 0 "#SUPPLY0102" H 11350 5760 70  0001 L BNN
+F 1 "VDD_5V" V 11350 5760 70  0000 L BNN
+F 2 "" H 11350 5600 60  0001 C CNN
+F 3 "" H 11350 5600 60  0001 C CNN
+	1    11350 5600
+	0    -1   -1   0   
+$EndComp
+Text Label 11200 2550 0    50   ~ 0
+Vbat
+Text Label 11150 3550 0    50   ~ 0
+Vbat
+Text Label 11150 3950 0    50   ~ 0
+Rst_Fona
+Text Label 11150 4050 0    50   ~ 0
+PS_Fona
+Text Label 11150 4150 0    50   ~ 0
+Key_Fona
+Text Label 11150 4450 0    50   ~ 0
+RX_Fona
+Text Label 11150 4350 0    50   ~ 0
+TX_Fona
+Text Label 11200 5000 0    50   ~ 0
+EN_GPS
+Text Label 11200 5400 0    50   ~ 0
+RX_GPS
+Text Label 11200 5300 0    50   ~ 0
+TX_GPS
+Wire Wire Line
+	11200 5300 11650 5300
+Wire Wire Line
+	11650 5000 11200 5000
+Wire Wire Line
+	11150 4450 11650 4450
+Wire Wire Line
+	11650 4350 11150 4350
+Wire Wire Line
+	11150 4150 11650 4150
+Wire Wire Line
+	11650 4050 11150 4050
+Wire Wire Line
+	11150 3950 11650 3950
+Wire Wire Line
+	11450 3650 11650 3650
+Wire Wire Line
+	11650 5400 11200 5400
+Wire Wire Line
+	11450 5500 11650 5500
+Wire Wire Line
+	11450 5600 11650 5600
+Wire Wire Line
+	11150 3550 11650 3550
+Wire Wire Line
+	11650 3050 11450 3050
+$Comp
+L AmalokCape-rescue:VDD_3V3B #SUPPLY0103
+U 1 1 5AE777AD
+P 11250 4650
+F 0 "#SUPPLY0103" H 11250 4810 70  0001 L BNN
+F 1 "VDD_3V3B" V 11150 4500 70  0000 L BNN
+F 2 "" H 11250 4650 60  0001 C CNN
+F 3 "" H 11250 4650 60  0001 C CNN
+	1    11250 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11350 4650 11650 4650
+Wire Wire Line
+	11200 2550 11650 2550
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 5AE7F0AE
+P 12000 2050
+F 0 "J4" V 12060 2090 50  0000 L CNN
+F 1 "Conn_01x02_Male" H 11600 2250 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 12000 2050 50  0001 C CNN
+F 3 "~" H 12000 2050 50  0001 C CNN
+	1    12000 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L AmalokCape-rescue:GND #GND0104
+U 1 1 5AE7F17A
+P 11600 2050
+F 0 "#GND0104" H 11501 1950 70  0001 L BNN
+F 1 "GND" V 11600 1700 70  0000 L BNN
+F 2 "" H 11600 2050 60  0001 C CNN
+F 3 "" H 11600 2050 60  0001 C CNN
+	1    11600 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11800 2050 11600 2050
+Text Label 11450 2750 0    50   ~ 0
+EN
+Wire Wire Line
+	11450 2750 11650 2750
+Text Label 11550 1950 0    50   ~ 0
+EN
+Wire Wire Line
+	11550 1950 11800 1950
+Text Label 6950 2900 0    50   ~ 0
+RX_Fona
+Text Label 6950 2800 0    50   ~ 0
+TX_Fona
+Wire Wire Line
+	6950 2800 8500 2800
+Wire Wire Line
+	6950 2900 8500 2900
+Wire Wire Line
+	6950 3100 8500 3100
+Text Label 6950 3100 0    50   ~ 0
+TX_GPS
+Text Label 6950 3000 0    50   ~ 0
+RX_GPS
+Wire Wire Line
+	6950 3000 8500 3000
+Text Label 10200 2800 0    50   ~ 0
+Key_Fona
+Text Label 10200 2600 0    50   ~ 0
+Rst_Fona
+Wire Wire Line
+	6950 2600 8500 2600
+Wire Wire Line
+	6950 2700 8500 2700
+Text Label 10200 2700 0    50   ~ 0
+PS_Fona
+Text Label 10200 3400 0    50   ~ 0
+EN_GPS
+$Comp
+L Device:R_Small R1
+U 1 1 5AE0F397
+P 11050 7850
+F 0 "R1" H 11109 7896 50  0000 L CNN
+F 1 "330Ohm" H 11109 7805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 11050 7850 50  0001 C CNN
+F 3 "~" H 11050 7850 50  0001 C CNN
+	1    11050 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L AmalokCape-rescue:GND #GND0106
+U 1 1 5AE0F3CD
+P 11050 8350
+F 0 "#GND0106" H 10951 8250 70  0001 L BNN
+F 1 "GND" H 11100 8350 70  0000 L BNN
+F 2 "" H 11050 8350 60  0001 C CNN
+F 3 "" H 11050 8350 60  0001 C CNN
+	1    11050 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5AE0F50D
+P 11050 8150
+F 0 "D1" V 11088 8033 50  0000 R CNN
+F 1 "LED" V 10997 8033 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 11050 8150 50  0001 C CNN
+F 3 "~" H 11050 8150 50  0001 C CNN
+	1    11050 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11050 8300 11050 8350
+Wire Wire Line
+	11050 7950 11050 8000
+$Comp
+L Device:R_Small R4
+U 1 1 5AE28BBC
+P 11600 7850
+F 0 "R4" H 11659 7896 50  0000 L CNN
+F 1 "330Ohm" H 11659 7805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 11600 7850 50  0001 C CNN
+F 3 "~" H 11600 7850 50  0001 C CNN
+	1    11600 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L AmalokCape-rescue:GND #GND0107
+U 1 1 5AE28BC2
+P 11600 8350
+F 0 "#GND0107" H 11501 8250 70  0001 L BNN
+F 1 "GND" H 11650 8350 70  0000 L BNN
+F 2 "" H 11600 8350 60  0001 C CNN
+F 3 "" H 11600 8350 60  0001 C CNN
+	1    11600 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5AE28BC8
+P 11600 8150
+F 0 "D2" V 11638 8033 50  0000 R CNN
+F 1 "LED" V 11547 8033 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 11600 8150 50  0001 C CNN
+F 3 "~" H 11600 8150 50  0001 C CNN
+	1    11600 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11600 8300 11600 8350
+Wire Wire Line
+	11600 7950 11600 8000
+Text Label 11050 7650 0    50   ~ 0
+LED1
+Text Label 11600 7650 0    50   ~ 0
+LED2
+Text Label 6000 4200 0    50   ~ 0
+LED1
+Text Label 6000 4300 0    50   ~ 0
+LED2
+Wire Wire Line
+	11050 7750 11050 7650
+Wire Wire Line
+	11600 7750 11600 7650
+Text Label 6000 3800 0    50   ~ 0
+SW1
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5AE586F0
+P 11650 6800
+F 0 "SW1" H 11650 7085 50  0000 C CNN
+F 1 "SW_Push" H 11650 6994 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 11650 7000 50  0001 C CNN
+F 3 "" H 11650 7000 50  0001 C CNN
+	1    11650 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5AE586F6
+P 11100 6650
+F 0 "R2" H 11159 6696 50  0000 L CNN
+F 1 "1kOhm" H 11159 6605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 11100 6650 50  0001 C CNN
+F 3 "~" H 11100 6650 50  0001 C CNN
+	1    11100 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 6800 11450 6800
+$Comp
+L AmalokCape-rescue:GND #GND0108
+U 1 1 5AE586FD
+P 11900 6800
+F 0 "#GND0108" H 11801 6700 70  0001 L BNN
+F 1 "GND" H 11950 6800 70  0000 L BNN
+F 2 "" H 11900 6800 60  0001 C CNN
+F 3 "" H 11900 6800 60  0001 C CNN
+	1    11900 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11850 6800 11900 6800
+$Comp
+L AmalokCape-rescue:VDD_3V3B #SUPPLY0105
+U 1 1 5AE58704
+P 11100 6400
+F 0 "#SUPPLY0105" H 11100 6560 70  0001 L BNN
+F 1 "VDD_3V3B" H 10500 6350 70  0000 L BNN
+F 2 "" H 11100 6400 60  0001 C CNN
+F 3 "" H 11100 6400 60  0001 C CNN
+	1    11100 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 6550 11100 6500
+Wire Wire Line
+	11100 6800 11100 6750
+Text Label 10900 6800 0    50   ~ 0
+SW1
+Wire Wire Line
+	10900 6800 11100 6800
+Connection ~ 11100 6800
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5AE75986
+P 11900 1500
+F 0 "J5" V 11960 1540 50  0000 L CNN
+F 1 "Conn_01x02_Male" H 11500 1700 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11900 1500 50  0001 C CNN
+F 3 "~" H 11900 1500 50  0001 C CNN
+	1    11900 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11400 1400 11700 1400
+Text Label 2800 2600 0    50   ~ 0
+VinPB
+Text Label 11350 1500 0    50   ~ 0
+VinPB
+Wire Wire Line
+	11350 1500 11700 1500
+$EndSCHEMATC

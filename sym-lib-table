@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name AmalokCape-rescue)(type Legacy)(uri ${KIPRJMOD}/AmalokCape-rescue.lib)(options "")(descr ""))
+  (lib (name ExternalModules)(type Legacy)(uri /home/gsegura/Proyectos/GoTouch/AmalokCape/ExternalModules.lib)(options "")(descr ""))
+)
