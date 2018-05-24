@@ -619,16 +619,16 @@ $EndComp
 $Comp
 L AmalokCape-rescue:VDD_5V #SUPPLY0101
 U 1 1 5AE2FC2D
-P 11450 3150
-F 0 "#SUPPLY0101" H 11450 3310 70  0001 L BNN
-F 1 "VDD_5V" V 11450 3310 70  0000 L BNN
-F 2 "" H 11450 3150 60  0001 C CNN
-F 3 "" H 11450 3150 60  0001 C CNN
-	1    11450 3150
-	0    -1   -1   0   
+P 17050 3800
+F 0 "#SUPPLY0101" H 17050 3960 70  0001 L BNN
+F 1 "VDD_5V" V 17050 3960 70  0000 L BNN
+F 2 "" H 17050 3800 60  0001 C CNN
+F 3 "" H 17050 3800 60  0001 C CNN
+	1    17050 3800
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11650 3150 11550 3150
+	11650 3150 11300 3150
 $Comp
 L AmalokCape-rescue:GND #GND0101
 U 1 1 5AE3B602
@@ -687,7 +687,7 @@ Text Label 11150 4450 0    50   ~ 0
 RX_Fona
 Text Label 11150 4350 0    50   ~ 0
 TX_Fona
-Text Label 11200 5000 0    50   ~ 0
+Text Label 10550 5000 0    50   ~ 0
 EN_GPS
 Text Label 11200 5400 0    50   ~ 0
 RX_GPS
@@ -696,7 +696,7 @@ TX_GPS
 Wire Wire Line
 	11200 5300 11650 5300
 Wire Wire Line
-	11650 5000 11200 5000
+	11650 5000 10900 5000
 Wire Wire Line
 	11150 4450 11650 4450
 Wire Wire Line
@@ -958,4 +958,322 @@ Text Label 11350 1500 0    50   ~ 0
 VinPB
 Wire Wire Line
 	11350 1500 11700 1500
+$Comp
+L dk_Signal-Relays-Up-to-2-Amps:EC2-5NU RLY1
+U 1 1 5B0BE846
+P 17250 4350
+F 0 "RLY1" H 17738 4396 50  0000 L CNN
+F 1 "EC2-5NU" H 17738 4305 50  0000 L CNN
+F 2 "digikey-footprints:Relay_THT_EC2" H 17450 4550 50  0001 L CNN
+F 3 "https://search.kemet.com/component-edge/download/datasheet/EC2-5NU.pdf" H 17450 4650 60  0001 L CNN
+F 4 "399-11052-5-ND" H 17450 4750 60  0001 L CNN "Digi-Key_PN"
+F 5 "EC2-5NU" H 17450 4850 60  0001 L CNN "MPN"
+F 6 "Relays" H 17450 4950 60  0001 L CNN "Category"
+F 7 "Signal Relays, Up to 2 Amps" H 17450 5050 60  0001 L CNN "Family"
+F 8 "https://search.kemet.com/component-edge/download/datasheet/EC2-5NU.pdf" H 17450 5150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/kemet/EC2-5NU/399-11052-5-ND/4291118" H 17450 5250 60  0001 L CNN "DK_Detail_Page"
+F 10 "RELAY GEN PURPOSE DPDT 2A 5V" H 17450 5350 60  0001 L CNN "Description"
+F 11 "KEMET" H 17450 5450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 17450 5550 60  0001 L CNN "Status"
+	1    17250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 5B0BECF7
+P 16750 5000
+F 0 "Q1" H 16941 5046 50  0000 L CNN
+F 1 "2N3904" H 16941 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 16950 4925 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 16750 5000 50  0001 L CNN
+	1    16750 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4001 D3
+U 1 1 5B0BEDED
+P 16550 4350
+F 0 "D3" H 16550 4566 50  0000 C CNN
+F 1 "1N4001" H 16550 4475 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 16550 4175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 16550 4350 50  0001 C CNN
+	1    16550 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L MCU_Microchip_ATtiny:ATtiny85-20PU U1
+U 1 1 5B0BEF39
+P 14900 6150
+F 0 "U1" H 14370 6196 50  0000 R CNN
+F 1 "ATtiny85-20PU" H 14370 6105 50  0000 R CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 14900 6150 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 14900 6150 50  0001 C CNN
+	1    14900 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Mini J8
+U 1 1 5B06C0B2
+P 6650 7250
+F 0 "J8" H 6705 7717 50  0000 C CNN
+F 1 "USB_B_Mini" H 6705 7626 50  0000 C CNN
+F 2 "digikey-footprints:USB_Mini_B_Female_548190519" H 6800 7200 50  0001 C CNN
+F 3 "~" H 6800 7200 50  0001 C CNN
+	1    6650 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_A J?
+U 1 1 5B06CDF7
+P 6650 5900
+F 0 "J?" H 6705 6367 50  0000 C CNN
+F 1 "USB_A" H 6705 6276 50  0000 C CNN
+F 2 "" H 6800 5850 50  0001 C CNN
+F 3 " ~" H 6800 5850 50  0001 C CNN
+	1    6650 5900
+	1    0    0    -1  
+$EndComp
+Text Label 6950 5900 0    65   ~ 0
+(U1.L15)USB1.D+
+Text Label 6950 6000 0    65   ~ 0
+(U1.L16)USB1.D-
+Text Label 11200 2450 0    50   ~ 0
+Vusb
+Wire Wire Line
+	11200 2450 11650 2450
+Text Label 6950 5700 0    50   ~ 0
+Vusb
+$Comp
+L AmalokCape-rescue:GND #GND?
+U 1 1 5B0768AD
+P 6600 6450
+F 0 "#GND?" H 6501 6350 70  0001 L BNN
+F 1 "GND" H 6650 6450 70  0000 L BNN
+F 2 "" H 6600 6450 60  0001 C CNN
+F 3 "" H 6600 6450 60  0001 C CNN
+	1    6600 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 6300 6550 6350
+Wire Wire Line
+	6650 6300 6650 6350
+Wire Wire Line
+	6650 6350 6600 6350
+Wire Wire Line
+	6600 6450 6600 6350
+Connection ~ 6600 6350
+Wire Wire Line
+	6600 6350 6550 6350
+Wire Wire Line
+	17150 4750 17150 4650
+Wire Wire Line
+	17050 3900 17050 4050
+Text Label 11300 3150 0    50   ~ 0
+5Vin
+$Comp
+L Device:R_Small R?
+U 1 1 5B0A2EFB
+P 16150 6650
+F 0 "R?" H 16209 6696 50  0000 L CNN
+F 1 "5kOhm" H 16209 6605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 16150 6650 50  0001 C CNN
+F 3 "~" H 16150 6650 50  0001 C CNN
+	1    16150 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5B0A3161
+P 16150 6350
+F 0 "R?" H 16209 6396 50  0000 L CNN
+F 1 "3kOhm" H 16209 6305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 16150 6350 50  0001 C CNN
+F 3 "~" H 16150 6350 50  0001 C CNN
+	1    16150 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16150 6550 16150 6500
+$Comp
+L AmalokCape-rescue:GND #GND?
+U 1 1 5B0A7FD7
+P 14900 6800
+F 0 "#GND?" H 14801 6700 70  0001 L BNN
+F 1 "GND" H 14950 6800 70  0000 L BNN
+F 2 "" H 14900 6800 60  0001 C CNN
+F 3 "" H 14900 6800 60  0001 C CNN
+	1    14900 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14900 6800 14900 6750
+$Comp
+L AmalokCape-rescue:GND #GND?
+U 1 1 5B0ACDD0
+P 16150 6800
+F 0 "#GND?" H 16051 6700 70  0001 L BNN
+F 1 "GND" H 16200 6800 70  0000 L BNN
+F 2 "" H 16150 6800 60  0001 C CNN
+F 3 "" H 16150 6800 60  0001 C CNN
+	1    16150 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16150 6800 16150 6750
+Wire Wire Line
+	16150 6250 15500 6250
+Text Label 16150 6150 0    50   ~ 0
+RX_PM
+Text Label 6000 2900 0    50   ~ 0
+TX_PM
+Text Label 6000 3000 0    50   ~ 0
+RX_PM
+Wire Wire Line
+	16850 4800 16850 4700
+$Comp
+L Device:R_Small R?
+U 1 1 5B0CB47C
+P 16400 5000
+F 0 "R?" H 16459 5046 50  0000 L CNN
+F 1 "1kOhm" H 16459 4955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 16400 5000 50  0001 C CNN
+F 3 "~" H 16400 5000 50  0001 C CNN
+	1    16400 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16550 5000 16500 5000
+$Comp
+L AmalokCape-rescue:GND #GND?
+U 1 1 5B0D0577
+P 16850 5250
+F 0 "#GND?" H 16751 5150 70  0001 L BNN
+F 1 "GND" H 16900 5250 70  0000 L BNN
+F 2 "" H 16850 5250 60  0001 C CNN
+F 3 "" H 16850 5250 60  0001 C CNN
+	1    16850 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16850 5250 16850 5200
+Text Label 16450 6500 0    50   ~ 0
+TX_PM
+Wire Wire Line
+	16450 6500 16150 6500
+Connection ~ 16150 6500
+Wire Wire Line
+	16150 6500 16150 6450
+Wire Wire Line
+	16150 6150 15500 6150
+Text Label 15600 5850 0    50   ~ 0
+Relay
+Text Label 11300 2950 0    50   ~ 0
+LBO
+Wire Wire Line
+	11300 2950 11650 2950
+Wire Wire Line
+	14900 5500 14900 5550
+Text Label 15600 5950 0    50   ~ 0
+Vusb
+Text Label 15600 6050 0    50   ~ 0
+LBO
+Wire Wire Line
+	15600 6050 15500 6050
+Wire Wire Line
+	15600 5950 15500 5950
+Wire Wire Line
+	15500 5850 15600 5850
+$Comp
+L Device:R_Small R?
+U 1 1 5B110FA2
+P 10900 5100
+F 0 "R?" H 10959 5146 50  0000 L CNN
+F 1 "1kOhm" H 10959 5055 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 10900 5100 50  0001 C CNN
+F 3 "~" H 10900 5100 50  0001 C CNN
+	1    10900 5100
+	1    0    0    -1  
+$EndComp
+Connection ~ 10900 5000
+Wire Wire Line
+	10900 5000 10550 5000
+$Comp
+L AmalokCape-rescue:GND #GND?
+U 1 1 5B1110FA
+P 10900 5250
+F 0 "#GND?" H 10801 5150 70  0001 L BNN
+F 1 "GND" H 10950 5250 70  0000 L BNN
+F 2 "" H 10900 5250 60  0001 C CNN
+F 3 "" H 10900 5250 60  0001 C CNN
+	1    10900 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10900 5250 10900 5200
+Text Label 17150 4750 0    50   ~ 0
+5Vin
+Text Label 7050 7050 0    50   ~ 0
+Vusb
+Wire Wire Line
+	6950 7050 7050 7050
+$Comp
+L AmalokCape-rescue:GND #GND?
+U 1 1 5B11DA60
+P 6600 7750
+F 0 "#GND?" H 6501 7650 70  0001 L BNN
+F 1 "GND" H 6650 7750 70  0000 L BNN
+F 2 "" H 6600 7750 60  0001 C CNN
+F 3 "" H 6600 7750 60  0001 C CNN
+	1    6600 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 7650 6550 7700
+Wire Wire Line
+	6550 7700 6600 7700
+Wire Wire Line
+	6650 7700 6650 7650
+Wire Wire Line
+	6600 7750 6600 7700
+Connection ~ 6600 7700
+Wire Wire Line
+	6600 7700 6650 7700
+Text Label 16000 5000 0    50   ~ 0
+Relay
+Wire Wire Line
+	16000 5000 16300 5000
+Text Label 14900 5500 0    50   ~ 0
+5Vin
+Text Label 16850 3950 1    50   ~ 0
+5Vin
+Wire Wire Line
+	16850 3950 16850 4000
+Wire Wire Line
+	16550 4200 16550 4000
+Wire Wire Line
+	16550 4000 16850 4000
+Connection ~ 16850 4000
+Wire Wire Line
+	16850 4000 16850 4050
+Wire Wire Line
+	16550 4500 16550 4700
+Wire Wire Line
+	16550 4700 16850 4700
+Connection ~ 16850 4700
+Wire Wire Line
+	16850 4700 16850 4650
+$Comp
+L AmalokCape-rescue:GND #GND?
+U 1 1 5B14A997
+P 11450 2850
+F 0 "#GND?" H 11351 2750 70  0001 L BNN
+F 1 "GND" V 11450 2500 70  0000 L BNN
+F 2 "" H 11450 2850 60  0001 C CNN
+F 3 "" H 11450 2850 60  0001 C CNN
+	1    11450 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11450 2850 11650 2850
 $EndSCHEMATC
