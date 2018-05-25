@@ -864,15 +864,13 @@ Text Label 11100 7650 0    50   ~ 0
 LED1
 Text Label 11600 7650 0    50   ~ 0
 LED2
-Text Label 2650 4300 0    50   ~ 0
-LED1
 Text Label 6000 4300 0    50   ~ 0
 LED2
 Wire Wire Line
 	11100 7750 11100 7650
 Wire Wire Line
 	11600 7750 11600 7650
-Text Label 2650 4200 0    50   ~ 0
+Text Label 2650 4300 0    50   ~ 0
 SW1
 $Comp
 L Switch:SW_Push SW1
@@ -1154,7 +1152,7 @@ Wire Wire Line
 	16000 4550 16000 4500
 Wire Wire Line
 	16000 4200 15350 4200
-Text Label 15450 3900 0    50   ~ 0
+Text Label 15450 4100 0    50   ~ 0
 Relay
 Text Label 11300 2950 0    50   ~ 0
 LBO
@@ -1162,7 +1160,7 @@ Wire Wire Line
 	11300 2950 11650 2950
 Wire Wire Line
 	14750 3550 14750 3600
-Text Label 15450 4100 0    50   ~ 0
+Text Label 15450 3900 0    50   ~ 0
 Vusb
 Text Label 15450 4000 0    50   ~ 0
 LBO
@@ -1337,8 +1335,6 @@ Text Label 12100 7650 0    50   ~ 0
 LED3
 Wire Wire Line
 	12100 7750 12100 7650
-Text Label 6000 4200 0    50   ~ 0
-LED3
 Wire Wire Line
 	2650 4300 4300 4300
 Wire Wire Line
@@ -1379,4 +1375,8 @@ Wire Wire Line
 	6950 5700 7050 5700
 Wire Wire Line
 	15250 2350 15250 2500
+Text Label 2650 4200 0    50   ~ 0
+LED3
+Text Label 6000 4200 0    50   ~ 0
+LED1
 $EndSCHEMATC
